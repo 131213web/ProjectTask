@@ -1,5 +1,5 @@
-WebÏîÄ¿½¨ÒéÊé-²àÖØÒµÎñ½¨Òé£¨ÁìÓò¡¢Ä¿±ê£©
-	- Inrroduction
+Webé¡¹ç›®å»ºè®®ä¹¦-ä¾§é‡ä¸šåŠ¡å»ºè®®ï¼ˆé¢†åŸŸã€ç›®æ ‡ï¼‰
+	- Introduction
 	- Gathring Background Information
 	- Components of a Proposal
 	- The Executive summary
