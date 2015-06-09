@@ -1,0 +1,30 @@
+#应用建模
+##功能需求建模
++ 用例图  
+![用例图](qrc:/mdcharm.png "MdCharm")
++ 活动图   
+![活动图](qrc:/mdcharm.png "MdCharm")
+
+##内容建模
++ 动态  
+![动态](qrc:/mdcharm.png "MdCharm")
++ 静态  
+![静态](qrc:/mdcharm.png "MdCharm")
+
+##超文本建模
++ 动态  
+![动态](qrc:/mdcharm.png "MdCharm")
++ 静态  
+![静态](qrc:/mdcharm.png "MdCharm")
+
+##展示建模
++ 动态  
+![动态](qrc:/mdcharm.png "MdCharm")
++ 静态  
+![静态](qrc:/mdcharm.png "MdCharm")
+
+##适应性建模
++ 动态  
+![动态](qrc:/mdcharm.png "MdCharm")
++ 静态  
+![静态](qrc:/mdcharm.png "MdCharm")
