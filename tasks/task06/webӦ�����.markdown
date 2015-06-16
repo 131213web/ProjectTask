@@ -14,3 +14,5 @@
 #####二.用户管理模块
 ###### (1).用户未登陆状态
 ![音乐管理模块](https://github.com/131213web/ProjectTask/blob/master/tasks/task06/Functional%20Design_3.PNG "function")
+###### (2).用户登陆状态
+![音乐管理模块](https://github.com/131213web/ProjectTask/blob/master/tasks/task06/Functional%20Design_4.PNG "function")
