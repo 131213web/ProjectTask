@@ -3,15 +3,14 @@
 + 交互设计
     + 全局导航：位于网页的头部，采用站点经常的主要功能作为全局导航。如歌手、音乐推荐、热门分享歌单、我的音乐天地。还有搜索条，可以按照歌曲名、专辑名、歌手名进行搜索。
     ![全局导航](https://github.com/131213web/ProjectTask/blob/master/tasks/task06/head.png "全局导航")
-    + 音乐推荐：可以按照语种、流派、年代、风格、地域等类别进行推荐。该模块会给出一些当前网站默认的一些推荐，如校园风格、小语种。（备注：该页面实例中的图片从网上获得）
-    ![全局导航](https://github.com/131213web/ProjectTask/blob/master/tasks/task06/recommend.png "音乐推荐")
     + 用户的注册登录：采用弹出对话框的形式进行操作在用户完成登录操作之后在网页的右上角会显示出用户的用户名，等级等基本信息。若是新用户点击注册则跳转至新的网页进行信息采集。
-    + 
     ![test](https://github.com/131213web/ProjectTask/blob/master/tasks/task06/login.PNG "sdf")
     + 音乐播放器：用户点击播放器播放按钮，进行音乐播放，再点击就暂停播放，同时还有上一首，下一首的两个按键，用户点击就能进行切歌，拖动音乐进度条可以将歌曲时间拖动到你需要的地方。
     ![test](https://github.com/131213web/ProjectTask/blob/master/tasks/task06/player.PNG "sdf")
     + 首页图片展示：点击首页上的音乐图片将直接跳转到该音乐版面，用户可以查看详细信息或者进一步操作。
     ![test](https://github.com/131213web/ProjectTask/blob/master/tasks/task06/display.PNG "sdf")
+    + 音乐推荐：可以按照语种、流派、年代、风格、地域等类别进行推荐。该模块会给出一些当前网站默认的一些推荐，如校园风格、小语种。
+    ![全局导航](https://github.com/131213web/ProjectTask/blob/master/tasks/task06/recommend.png "音乐推荐")
     + 音乐分类：点击代表音乐分类的图片进入相应的音乐分区，
     ![test](https://github.com/131213web/ProjectTask/blob/master/tasks/task06/category.PNG "sdf")
     + 评价：用户可以通过点击音乐下面的星来表示喜欢这首歌，系统将会根据每首歌的星数来排定歌曲的排行榜
