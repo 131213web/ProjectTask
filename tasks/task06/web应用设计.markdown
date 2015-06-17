@@ -2,6 +2,7 @@
 ## 交互设计
 + 交互设计
     + 全局导航：位于网页的头部，采用站点经常的主要功能作为全局导航。如歌手、推荐、热门分享歌单、我的音乐天地。还有搜索条，可以按照歌曲名、专辑名、歌手名进行搜索。
+    ![全局导航](https://github.com/131213web/ProjectTask/blob/master/tasks/task06/head.png "全局导航")
     + 用户的注册登录：采用弹出对话框的形式进行操作在用户完成登录操作之后在网页的右上角会显示出用户的用户名，等级等基本信息。若是新用户点击注册则跳转至新的网页进行信息采集。
     + 
     ![test](https://github.com/131213web/ProjectTask/blob/master/tasks/task06/login.PNG "sdf")
