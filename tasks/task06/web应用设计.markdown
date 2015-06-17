@@ -13,6 +13,8 @@
     ![全局导航](https://github.com/131213web/ProjectTask/blob/master/tasks/task06/recommend.png "音乐推荐")
     + 音乐分类：点击代表音乐分类的图片进入相应的音乐分区，
     ![test](https://github.com/131213web/ProjectTask/blob/master/tasks/task06/category.PNG "sdf")
+    + 热门分享推荐：分为三个模块：热门分享新歌、分享热度榜、校园歌手大赛榜
+    ![test](https://github.com/131213web/ProjectTask/blob/master/tasks/task06/rank.PNG "热门分享榜")
     + 评价：用户可以通过点击音乐下面的星来表示喜欢这首歌，系统将会根据每首歌的星数来排定歌曲的排行榜
     ![test](https://github.com/131213web/ProjectTask/blob/master/tasks/task06/evaluate.PNG "sdf")
 
