@@ -16,6 +16,7 @@
 
 ## 展示设计
 ![主页展示图](https://github.com/131213web/ProjectTask/blob/master/tasks/task06/homepage.png "sdf")
+![注册展示图](https://github.com/131213web/ProjectTask/blob/master/tasks/task06/zhuce1.png "sdf")
 ## 内容设计
 #####总体架构图
 ![总体架构图](https://github.com/131213web/ProjectTask/blob/master/tasks/task06/Content_01.png "function")
