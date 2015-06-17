@@ -1,6 +1,6 @@
 # web应用设计
 ## 交互设计
-    ![test](https://github.com/131213web/ProjectTask/blob/master/tasks/task06/player.PNG "sdf")
+![test](https://github.com/131213web/ProjectTask/blob/master/tasks/task06/player.PNG "sdf")
 ## 展示设计
 ## 内容设计
 ## 功能设计
