@@ -2,6 +2,7 @@
 ## 交互设计
 + 交互设计
     + 用户的注册登录：采用弹出对话框的形式进行操作在用户完成登录操作之后在网页的右上角会显示出用户的用户名，等级等基本信息。若是新用户点击注册则跳转至新的网页进行信息采集。
+    
     ![test](https://github.com/131213web/ProjectTask/blob/master/tasks/task06/login.PNG "sdf")
     + 音乐播放器：用户点击播放器播放按钮，进行音乐播放，再点击就暂停播放，同时还有上一首，下一首的两个按键，用户点击就能进行切歌，拖动音乐进度条可以将歌曲时间拖动到你需要的地方。
     ![test](https://github.com/131213web/ProjectTask/blob/master/tasks/task06/player.PNG "sdf")
