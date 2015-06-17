@@ -14,9 +14,17 @@
     ![test](https://github.com/131213web/ProjectTask/blob/master/tasks/task06/evaluate.PNG "sdf")
 
 ## 展示设计
-#####主页展示图
 ![主页展示图](https://github.com/131213web/ProjectTask/blob/master/tasks/task06/homepage.png "sdf")
 ## 内容设计
+#####总体架构图
+![总体架构图](https://github.com/131213web/ProjectTask/blob/master/tasks/task06/Content_01.PNG "function")
+#####1. 组织内容
+   总体采用的是层次结构：在主界面上显示登录注册，播放音乐，排行榜，推荐，评价，分类以及友情链接。在登录成功状态下可进行音乐上传。在分类下分别有流派，语种&地域，年代，主题&风格。在友情链接点击下，可以链接到当前主流的音乐网站。
+#####2. 导航系统
+   导航系统主要是为用户的浏览服务，使用户知道他们在浏览该网站。无论用户在网页的哪个界面，在网页的顶端显示用户登录信息，以及用户当前位置。
+   全局导航，网站主界面将整个版面设计成若干区域，左侧为链接栏，连接到当前主流的音乐网站。其他功能均能使用户深入到应用的主要内容域，并可从应用返回到主界面。
+　 局部导航，作为全局导航的补充。在音乐分类下依次还有流派，语种&地域，年代，主题&风格。这样用户就可以在一个内容里按层次浏览信息。
+
 ## 功能设计
 #####总体功能设计图
 ![总体功能设计图](https://github.com/131213web/ProjectTask/blob/master/tasks/task06/Functional%20Design_1.PNG "function")
