@@ -11,6 +11,7 @@
     ![test](https://github.com/131213web/ProjectTask/blob/master/tasks/task06/category.PNG "sdf")
     + 评价：用户可以通过点击音乐下面的星来表示喜欢这首歌，系统将会根据每首歌的星数来排定歌曲的排行榜
     ![test](https://github.com/131213web/ProjectTask/blob/master/tasks/task06/evaluate.PNG "sdf")
+
 ## 展示设计
 ## 内容设计
 ## 功能设计
