@@ -14,6 +14,7 @@
     ![test](https://github.com/131213web/ProjectTask/blob/master/tasks/task06/evaluate.PNG "sdf")
 
 ## 展示设计
+![主页展示图](https://github.com/131213web/ProjectTask/blob/master/tasks/task06/homepage.png "sdf")
 ## 内容设计
 ## 功能设计
 #####总体功能设计图
