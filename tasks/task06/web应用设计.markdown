@@ -18,7 +18,7 @@
 ![主页展示图](https://github.com/131213web/ProjectTask/blob/master/tasks/task06/homepage.png "sdf")
 ## 内容设计
 #####总体架构图
-![总体架构图](https://github.com/131213web/ProjectTask/blob/master/tasks/task06/Content_01.PNG "function")
+![总体架构图](https://github.com/131213web/ProjectTask/blob/master/tasks/task06/Content_01.png "function")
 #####1. 组织内容
    总体采用的是层次结构：在主界面上显示登录注册，播放音乐，排行榜，推荐，评价，分类以及友情链接。在登录成功状态下可进行音乐上传。在分类下分别有流派，语种&地域，年代，主题&风格。在友情链接点击下，可以链接到当前主流的音乐网站。
 #####2. 导航系统
