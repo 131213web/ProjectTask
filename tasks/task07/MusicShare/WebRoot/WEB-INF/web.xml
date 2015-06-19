@@ -7,4 +7,21 @@
   <welcome-file-list>
     <welcome-file>index.jsp</welcome-file>
   </welcome-file-list>
+  <servlet> 
+  	<servlet-name>userservlet</servlet-name>        
+  	<servlet-class>com.musicshare.servlet.UserServlet</servlet-class> 
+  </servlet> 
+  <servlet-mapping> 
+    <servlet-name>userservlet</servlet-name> 
+  	<url-pattern>/user</url-pattern> 
+  </servlet-mapping> 
+  
+   <servlet> 
+  	<servlet-name>songServlet</servlet-name>        
+  	<servlet-class>com.musicshare.servlet.SongServlet</servlet-class> 
+  </servlet> 
+  <servlet-mapping> 
+    <servlet-name>songServlet</servlet-name> 
+  	<url-pattern>/song</url-pattern> 
+  </servlet-mapping> 
 </web-app>
