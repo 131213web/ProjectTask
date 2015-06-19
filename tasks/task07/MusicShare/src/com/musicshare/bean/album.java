@@ -1,13 +1,13 @@
 package com.musicshare.bean;
 import java.util.Date;
 
-public class album {
-	
+public class Album {
+
 	String albumId;
 	String albumName;
 	String albumImage;
 	Date albumTime;
-	
+
 	public String getAlbumId() {
 		return albumId;
 	}
@@ -32,7 +32,7 @@ public class album {
 	public void setAlbumTime(Date albumTime) {
 		this.albumTime = albumTime;
 	}
-	
-	
+
+
 
 }
