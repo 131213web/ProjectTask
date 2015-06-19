@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="MusicShare"
+  id="myeclipse.1434712230136"
+  context-root="/MusicShare"
+  j2ee-spec="5.0"
+  archive="MusicShare.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+
