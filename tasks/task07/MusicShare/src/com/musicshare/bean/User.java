@@ -44,6 +44,11 @@ public class User {
 	public void setSex(boolean sex) {
 		this.sex = sex;
 	}
+	
+	public boolean getSex() {
+		return sex;
+	}
+	
 	public Date getRegistDate() {
 		return registDate;
 	}
