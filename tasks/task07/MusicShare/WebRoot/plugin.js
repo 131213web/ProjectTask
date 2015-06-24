@@ -1,0 +1,1 @@
++(function(a){var b=function(){a(".pic").mouseenter(function(){});a(".pic").mouseleave()(function(){})};a(window).on("load",function(){b();a(".btt").hide()});a(window).scroll(function(){if(a(window).scrollTop()>500){a(".btt").show()}else{a(".btt").hide()}})})(jQuery);
