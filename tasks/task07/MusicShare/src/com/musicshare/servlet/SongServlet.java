@@ -28,7 +28,6 @@ public class SongServlet extends HttpServlet{
 	    out.println("<BODY>");
 	    
 	    try {
-	    	
 			ss.findSong(name);
 			out.println("<B>查找成功</B>");
 		} catch (Exception e) {
