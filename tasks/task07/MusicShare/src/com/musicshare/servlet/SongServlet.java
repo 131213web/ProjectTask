@@ -15,7 +15,6 @@ import com.musicshare.service.SongService;
 public class SongServlet extends HttpServlet{
 
 	private SongService ss = new SongService();
-	
 	public void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException  {
 	    response.setContentType("text/html;charset=gb2312");
 	    //SongDao songDao =  request.getParameter("song");
