@@ -28,11 +28,12 @@ public class SongServlet extends HttpServlet{
 	    out.println("<BODY>");
 	    
 	    try {
+	    	
 			ss.findSong(name);
-			out.println("<B>²éÕÒ³É¹¦</B>");
+			out.println("<B>æŸ¥æ‰¾æˆåŠŸ</B>");
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
-			out.println("<B>Ã»ÓĞÕÒµ½Æ¥ÅäÏî</B>");
+			out.println("<B>æ²¡æœ‰æ‰¾åˆ°åŒ¹é…é¡¹</B>");
 		}
 	    out.println("</BODY>");
 	    out.println("</HTML>");
