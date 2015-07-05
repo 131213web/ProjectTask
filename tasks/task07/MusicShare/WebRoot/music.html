@@ -1,0 +1,63 @@
+<!DOCTYPE html>    
+<html>  
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />  
+	<script type="text/javascript" src="js/jquery.min.js"></script> 
+	<script type="text/javascript" src="js/music.js"></script> 
+	<link href="css/music.css" rel="stylesheet" type="text/css"/>
+</head> 
+<body>
+  
+  <div class="playDiv">
+  <div class="currentMusic"><span class="currentSpan">当前正在播放：<span id="playMsg"></span></span></div>
+  <div>
+  <audio id="musicBox" controls onended="myMusic.nextMusic()" style="width:99%;padding-left:2px;">    
+	An audio clip from Johann Sebastian Bach.    
+  </audio>
+  </div>
+  <div class="currentBtns">
+	<div id="lastMusic" class="lastMusic">
+		<img title="第一首歌曲" src="image/first.png" onclick="myMusic.fristMusic()"/>&nbsp;&nbsp;
+		<img title="上一首歌曲" src="image/last.png" onclick="myMusic.lastMusic()"/>&nbsp;&nbsp;
+		<img title="点击暂停" id="pop" src="image/play.png" onclick="myMusic.playOrPause()" imgVal="0"/>&nbsp;&nbsp;
+		<img title="下一首歌曲" src="image/next.png" onclick="myMusic.nextMusic()"/>&nbsp;&nbsp;
+		<img title="最后一首歌曲" src="image/end.png" onclick="myMusic.end()"/>
+		</div>
+	<div id="play"></div>
+	<div id="nextMusic"></div>
+  </div>
+  </div>
+  <div style="width:100%">
+	<div class="songStyle float_l">
+	<h3>歌曲列表 <div class="float_r"><span class="playMode">
+		<select id="playMode">
+		<option value="1">全部循环</option>
+		<option value="2">单曲循环</option>
+		<option value="3">随机播放</option>
+		</select>
+	</span></div></h3>
+	<div id="songs">
+	<ul id="musicList">
+	</ul>
+	</div>
+	</div>
+    <!--
+	<div class="infoStyle float_l">
+	<h3>歌曲信息</h3>
+	<div style="width:100%" id="infos">
+	<div class="info float_l">
+	<div><strong><span>歌名:</span><span id="name"></span></strong></div>
+	<div><strong><span>歌手:</span><span id="author"></span></strong></div>
+	<div><strong><span>专辑:</span><span id="CD"></span></strong></div>
+	</div>
+	<div class="picInfo float_l">
+		<img id="picInfo" style="width:100%;height:100%;"/>
+	</div>
+	</div>
+	<ul id="musicList">
+	</ul>
+	</div>
+  </div>
+  -->
+</body>  
+</html>    
