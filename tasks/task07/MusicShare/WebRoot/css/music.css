@@ -1,0 +1,93 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+margin:20px;
+font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+font-size:12px;
+}
+#musicList{
+	
+}
+li{
+   
+   list-style: url(../images/heart.png) outside circle;
+   line-height:20px;
+   padding-bottom:3px;
+   vertical-align: middle; 
+}
+
+.float_r{float:right;}
+.float_l{float:left;}
+.playMode{text-align:right;}
+
+.songStyle{
+	width: 290px;
+	margin-bottom:20px;
+	border:1px solid #96C2F1;
+	background-color: #EFF7FF
+}
+.songStyle h3{
+margin: 1px;
+padding: 1px 1px 1px 10px;
+background-color: #B2D3F5;
+height: 24px;
+}
+.playDiv{
+	width: 290px;
+	height:100px;
+    margin-bottom:10px;  
+    border:1px solid #92B0DD;  
+    background-color: #FFFFFf  
+}
+.currentMusic{  
+    background-color: #E2EAF8;  
+    height: 24px;  
+	width:100%;
+}
+.currentSpan{
+	padding-left:3px;
+}  
+.lastMusic{
+ background-color: #E2EAF8;  
+ text-align:center;
+}
+.lastMusic img{
+	width:32px;
+	height:32px;
+	cursor:pointer;
+}
+.infoStyle{
+	margin-left:10px;
+	width: 290px;
+	margin-bottom:20px;
+	border:1px solid #96C2F1;
+	background-color: #EFF7FF;
+}
+.infoStyle h3{
+margin: 1px;
+padding: 1px 1px 1px 10px;
+background-color: #B2D3F5;
+height: 24px;
+}
+.info{
+	width:49%;
+}
+.picInfo{
+	width:49%;
+	margin-right:2px;
+	height:100%;
+}
+strong span{
+	margin-left:4px;
+}
+.info div{
+	padding: 10px 0px 10px 10px;
+	font-size:12px;
+}
+.liOn{
+	background-color:#E3E197;
+}
+.Gray
+{
+ filter:alpha(style=0,opacity=30,finishopacity=30);
+}
