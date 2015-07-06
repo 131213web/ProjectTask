@@ -1,0 +1,47 @@
+@charset "utf-8";
+/* CSS Document */
+.container{
+	width:75%;
+	
+}
+.navbar-brand{
+    background-color:#0CF;
+}
+.body1{
+	height:400px;
+	background-color:#09C;
+}
+
+.body{
+    width:75%;
+    margin:0px auto;
+}
+
+.body2{
+	height:300px;
+    margin:10px auto;
+
+}
+
+.s_name{
+   width:50%;
+   float:left;  
+}
+.m_name{
+   width:35%;
+   float:left;
+}
+.imgs{
+   width:15%;
+   float:left;
+}
+
+.foot{
+   width:75%;
+   height:100px;
+   margin:50px auto;
+}
+.declaration{
+   margin:100px auto;
+   
+}
