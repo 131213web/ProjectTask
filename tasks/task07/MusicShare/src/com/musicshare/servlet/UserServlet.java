@@ -2,6 +2,7 @@ package com.musicshare.servlet;
 
 import java.io.IOException;
 import java.io.PrintWriter;
+import java.util.Date;
 
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServletRequest;
@@ -9,6 +10,7 @@ import javax.servlet.http.HttpServletResponse;
 
 import com.musicshare.service.SongService;
 import com.musicshare.service.UserService;
+import com.musicshare.bean.User;
 
 public class UserServlet {
 
@@ -18,15 +20,30 @@ public class UserServlet {
 	 
 	 public void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException  {
 		 
-			String user = request.getParameter("user");
+			String name = request.getParameter("username");
 			String pwd = request.getParameter("password");
-			response.setContentType("text/html;charset=gb2312");
+			String email = request.getParameter("email");
+			String phone = request.getParameter("phone");
+			String sex = request.getParameter("sex");
+			
+			if(name==null || name.equals("") || pwd==null || pwd.equals("") ||
+					email==null || email.equals("") || phone==null || phone.equals("") || sex==null || sex.equals(""))
+				;
+			
+			User user = new User();
+			Date date = new Date();
+			
+			response.setContentType("text/html;charset=utf-8");
+			
+			
+			
+			
 		    PrintWriter out = response.getWriter();
 		    out.println("<HTML>");
 		    out.println("<HEAD>");
 		    out.println("<TITLE>Hello Servlet</TITLE>");
 		    try {
-				us.login(user, pwd);
+				us.login(name, pwd);
 				out.println("<B>µÇÂ½³É¹¦</B>");
 			} catch (Exception e) {
 				// TODO Auto-generated catch block
